@@ -14,3 +14,8 @@ Preprocess all datasets using the command
 ```bash
 python3 preprocess.py SMAP MSL SWaT WADI SMD MSDS UCR MBA NAB
 ```
+
+
+```bash
+python3 main.py --model Dual_ED --dataset SMAP --retrain
+```
